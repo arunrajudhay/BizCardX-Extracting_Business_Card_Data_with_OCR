@@ -26,7 +26,7 @@ Install the following packages to run the project :
 ## Key Technologies and Skills:
 1. Python
 2. MySQL
-3. pandas
+3. Pandas
 4. EasyOCR Implementation
 5. Streamlit
 
@@ -37,7 +37,11 @@ Install the following packages to run the project :
 4. Access the app in your browser
 
 ## Approach:
-1. 
+1. After running the streamlit command, a webpage will be displayed in browser where i have created the app with three menu options namely HOME, UPLOAD & EXTRACT, MODIFY where user has the option to upload the respective Business Card whose information has to be extracted, stored, modified or deleted if needed.
+
+2. Once user uploads a business card, the text present in the card is extracted by easyocr library.
+
+3. 
 
 
 
