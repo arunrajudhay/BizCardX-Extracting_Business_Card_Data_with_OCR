@@ -6,9 +6,9 @@ In today's business world, managing contact information efficiently is vital for
 1. Pre-requisites
 2. Key Technologies and Skills
 3. Usage
-4. Data Scrapping
-5. Storing in MySQL
-6. Querying
+4. Approach
+5. Learning outcomes of this project
+6. Contribution
 7. Further Improvements
 
 ## Pre-requisites:
@@ -41,7 +41,35 @@ Install the following packages to run the project :
 
 2. Once user uploads a business card, the text present in the card is extracted by easyocr library.
 
-3. 
+3. The extracted text is sent to get_data() function(user defined- I have coded this function) for respective text classification as company name, card holder name, designation, mobile number, email address, website URL, area, city, state, and pin code using loops and some regular expression.
+
+4. The classified data is displayed on screen which can be further edited by user based on requirement.
+
+5. On Clicking Upload to Database Button the data gets stored in the MySQL Database. (Note: Provide respective host, user, password, database name in create_database, sql_table_creation and connect_database for establishing connection.)
+
+6. Further with the help of MODIFY menu the uploaded data’s in SQL Database can be accessed for Read, Update and Delete Operations.
+
+## Learning outcomes of this project:
+1. The project creates an automated system that extracts multilingual text from business cards using EasyOCR and stores it in a MySQL database, eliminating manual data entry.
+
+2. Users can upload business card images via a simple interface, and the extracted data, such as names and contact info, is validated and stored efficiently for quick access.
+
+3. The system handles real-time error management, ensuring accurate text extraction and reliable data storage, reducing human errors.
+
+4. The entire workflow, from OCR-based extraction to dynamic data storage, demonstrates proficiency in Python, MySQL integration, and automation, enhancing business process efficiency.
+
+5. The project provides practical experience in handling scalable solutions, making it a valuable tool for streamlining networking, contact management, and future expansion.
+
+## Contribution:
+Contributions to this project are welcome! If you encounter any issues or have suggestions for improvements, please feel free to submit a pull request.
+
+## Contact:
+
+Email : [ruarunraj2013@gmail.com](mailto:ruarunraj2013@gmail.com)
+
+Linkedin : https://www.linkedin.com/in/arunraj-r-u-27722a146
+
+Thanks for showing interest in this repository !
 
 
 
